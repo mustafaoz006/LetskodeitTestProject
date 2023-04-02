@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="LetskodeitTestProject">
+	<test thread-count="5" name="RadioButtonTest">
+		<classes>
+			<class name="testCases.RadioButtonTest" />
+		</classes>
+	</test>
+	
+	
+	<!--  <test name="nopcommerceTest2">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.nopcommerce.testCases.TC_LoginTest_001" />
+		</classes>
+	</test>
+	
+	
+	<test name="nopcommerceTest3">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="com.nopcommerce.testCases.TC_LoginTest_001" />
+		</classes>
+	</test> -->
+
+</suite>
